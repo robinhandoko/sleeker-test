@@ -12,7 +12,7 @@ questions = []
   lines -= [question]
 end
 
-puts "Terdapat #{num_of_question} pertanyaan."
+puts "There are #{num_of_question} question(s)"
 max_attempt = 2
 questions.each_with_index do |question, index|
   puts "Tebak kata: " + question.chars.shuffle.join
